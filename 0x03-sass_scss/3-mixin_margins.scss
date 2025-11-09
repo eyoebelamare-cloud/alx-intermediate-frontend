@@ -1,0 +1,13 @@
+//body { margin-left:10px;
+       //margin-right:10px;}
+//div { margin-left:15px;
+      //margin-right:15px;}
+@mixin Horyzontal_margin($marginvalue) { 
+  margin-left:$marginvalue;
+  margin-right:$marginvalue; }
+body { @include Horyzontal_margin($marginvalue:10px);
+  margin-left:$marginvalue;
+  margin-right:$marginvalue;}
+div { @include Horyzontal_margin($marginvalue:15px);
+  margin-left:$marginvalue;
+  margin-right:$marginvalue;}
