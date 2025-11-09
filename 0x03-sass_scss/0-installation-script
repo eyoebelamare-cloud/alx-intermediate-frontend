@@ -1,1 +1,7 @@
+# installing SASS
+to install SASS I opened node.js and then write the following code
+npm install scss -v .3.7.4
+and then it worked 
+
+
 
